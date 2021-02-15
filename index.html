@@ -11,47 +11,86 @@
     <body>
         <header>
             <h1>Jay Cam</h1>
-        <div class="navContainer">
+        <div id="navContainer">
             <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
-        </nav>
-    </div> 
+                <ul>
+                    <li><a href="#navContainer">Home</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#proj">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div> 
         </header>
 
         <main>
-            <article class="aboutMe">
-                <h2>About Me</h2>
-                <p>
+
+            <h2 id="aboutMe"> About Me </h2>
+
+            <article >
+ 
+                <img src="image\picture.jpg" alt="picture of me" style="width: 300px; height: 300px;">
+                <p class="aboutText">
                     I am a web developer that is ready for anything. 
                     Skilled in JavaScript and Node.js, I am ready to present the world
-                    what I can do. 
+                    what I can do.
+                    P.s. I currently do not have a professional picture at the moment.
+                    It will be available soon.
                 </p>
             </article>
 
-            <section id="projects">
-                <h3>Projects</h3>
+            <h3 id="proj">Projects</h3>
+
+            <section class="projects">
+                
                 <div class="projectOne">
-                    <img src="image\unsplash.jpg" alt="laptop" style="width:200px;height:200px;">
+                    <div class="projectPic">
+                        <img src="image\unsplash.jpg" alt="laptop" style="width:300px;height:300px;">
+                    </div>
                     <div>
-                        <p class="title">Project One</p>
+                        <p class="titleOne">Project One</p>
+                        <p class="pOne">This is a filler until my projects are done.</p>
+                    </div>
+                </div>
+
+                <div class="projectTwo">
+                    <img src="image\M-unsplash.jpg" alt="apple products" style="width:200px;height:200px;">
+                    <div>
+                        <p class="title">Project Two</p>
+                        <p>This is a filler until my projects are done.</p>
+                    </div>
+                </div>
+
+                <div class="projectThree">
+                    <img src="image\nsplash.jpg" alt="desk" style="width:200px;height:200px;">
+                    <div>
+                        <p class="title">Project Three</p>
+                        <p>This is a filler until my projects are done.</p>
+                    </div>
+                </div>
+
+                <div class="projectFour">
+                    <img src="image\keefikus.jpg" alt="studio" style="width:200px;height:200px;">
+                    <div>
+                        <p class="title">Project Four</p>
                         <p>This is a filler until my projects are done.</p>
                     </div>
                 </div>
 
             </section>
+
         </main>
 
         <footer>
-            gkjeahgkjg
+            <p id="contact">Contact Info</p>
+            <div class="contactContainer">
+                <ul>
+                    <li><a href="mailto:j.cam97@hotmail.com">E-Mail</a></li>
+                    <li><a href="tel:(951)454-7311">Telephone</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 
 </html>
-
-<a href="mailto:j.cam97@hotmail.com"></a>
-<a href="tel:(951)454-7311"></a>
